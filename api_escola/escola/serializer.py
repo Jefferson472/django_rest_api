@@ -10,7 +10,7 @@ class AlunoSerializer(serializers.ModelSerializer):
 
 class CursoSerializer(serializers.ModelSerializer):
     class Meta:
-        model = Aluno
+        model = Curso
         fields = '__all__'
 
 
